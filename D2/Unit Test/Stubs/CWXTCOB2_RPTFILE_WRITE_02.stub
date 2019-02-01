@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB2_RPTFILE_WRITE_02.stub" stubtype="QSAM WRITE" target="RPTFILE" token="80000">
+  <stub:description>Created: 31 oct. 2018 10:50:48</stub:description>
+  <stub:stubdata id="0" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_ERROR_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_ERROR_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_ERROR-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_ERROR-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_ERROR-LINE.listructure#ERROR_LINE" id="arg0.ERROR_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">40C9D5E5C1D3C9C440C5D4D7D3D6E8C5C540E3E8D7C540404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWXTCOB2_RPTFILE_ERROR-LINE.listructure#ERROR_LINE.ERROR_LINE" id="output0.arg0.ERROR_LINE.ERROR_LINE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.ERROR_LINE.ERROR_LINE">
+        <checkconditions:expression>' INVALID EMPLOYEE TYPE' eq result.arg0.ERROR_LINE.ERROR_LINE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string"> INVALID EMPLOYEE TYPE</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+  </stub:stubdata>
+</stub:stub>

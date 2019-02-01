@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.2.1.v20180920-0235_707?>
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 31 oct. 2018 10:50:44-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_REPORT_RECORD.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWXTCOB2_RPTFILE_REPORT-RECORD.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_REPORT-RECORD.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_REPORT-RECORD.listructure#REPORT_RECORD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTCOB2_RPTFILE_REPORT-RECORD.listructure#REPORT_RECORD.REPORT_RECORD">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>
