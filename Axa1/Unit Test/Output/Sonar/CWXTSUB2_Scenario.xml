@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.2.4.v20180102-2053_46?>
+<!--Topaz for Total Test 18.2.4.v20180102-2053_46 17 janv. 2018 09:51:35-->
+<testExecutions version="1">
+  <file path="C:\Users\cwfr-bbeurier\Compuware\Workbench\workspace18.2.4\Axa1\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'Axa1' Scenario: 'CWXTSUB2_Scenario' Testcase: 'CWXTSUB2Case1' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		110.60
+
+Expected Value:  55.30</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\cwfr-bbeurier\Compuware\Workbench\workspace18.2.4\Axa1\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'Axa1' Scenario: 'CWXTSUB2_Scenario' Testcase: 'AVL' Test: Check for COMM_TOTAL'">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    		120.00
+
+Expected Value:  100</failure>
+    </testCase>
+  </file>
+</testExecutions>
