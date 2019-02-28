@@ -1,4 +1,0 @@
-//BFRBXB0T JOB ('TTT'),'TTT',NOTIFY=&SYSUID,CLASS=A,
-//        MSGCLASS=R,REGION=0M
-//*
-//*

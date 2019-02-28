@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB2_RPTFILE_OPEN_01.stub" stubtype="QSAM OPEN" target="RPTFILE" token="60000">
-  <stub:description>Created: 31 oct. 2018 10:50:44</stub:description>
-  <stub:stubdata id="0" name="RPTFILE">
-    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_REPORT_RECORD.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_REPORT_RECORD.interface</stub:interface>
-  </stub:stubdata>
-</stub:stub>
