@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 1 mars 2019 11:36:57-->
+<testExecutions version="1">
+  <file path="C:\Logiciels - Données\workspace19.1\EUROINFO\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="EUROINFO.CWXTSUB2_Scenario.00001: CWXTSUB2Case1.00001: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Logiciels - Données\workspace19.1\EUROINFO\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="EUROINFO.CWXTSUB2_Scenario.00002: CWXTSUB2Case2.00001: Check for COMM_TOTAL">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    173.70
+
+Expected Value:  = 200.00</failure>
+    </testCase>
+  </file>
+</testExecutions>
