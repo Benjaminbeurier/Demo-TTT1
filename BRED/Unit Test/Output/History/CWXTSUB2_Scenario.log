@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-03-21 08:18.43��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-21 11:28.18��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTSUB2
  STTR014I Processing test scenario CWXTSUB2
@@ -57,8 +57,8 @@
  module: CWXTSUB2, csect: CWXTSUB2, entry: CWXTSUB2
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38168028
- ---TARGCALL---entry newTARGET: 38168028
+ ---TARGET---exit newTARGET: 37F4F028
+ ---TARGCALL---entry newTARGET: 37F4F028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -96,14 +96,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38168098
- ---addTargetArg---workingArea: 38168088
+ AV ptr: 37F4F098
+ ---addTargetArg---workingArea: 37F4F088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38168088
+ ---T addTargetArg---workingArea: 37F4F088
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38168088
+ ---TARGARG--- workingArea: 37F4F088
  ---TARGARG---entry
  length: 8
  ---T addTargetArg---entry
@@ -113,7 +113,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38168098
+ AV ptr: 37F4F098
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -126,14 +126,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38168098
- ---addTargetArg---workingArea: 381680E8
+ AV ptr: 37F4F098
+ ---addTargetArg---workingArea: 37F4F0E8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 381680E8
+ ---T addTargetArg---workingArea: 37F4F0E8
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 381680E8
+ ---TARGARG--- workingArea: 37F4F0E8
  ---TARGARG---entry
  length: 4
  ---T addTargetArg---entry
@@ -143,7 +143,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 38168098
+ AV ptr: 37F4F098
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -160,14 +160,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 38168098
- ---addTargetArg---workingArea: 38168128
+ AV ptr: 37F4F098
+ ---addTargetArg---workingArea: 37F4F128
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38168128
+ ---T addTargetArg---workingArea: 37F4F128
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38168128
+ ---TARGARG--- workingArea: 37F4F128
  ---BNDTARGT---entry
  --->>>modName = CWXTSUB2, epName = CWXTSUB2
  ---openW_includeName---entry
@@ -210,8 +210,8 @@
  module: CWXTSUB2, csect: CWXTSUB2, entry: CWXTSUB2
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 381680F8
- ---TARGCALL---entry newTARGET: 381680F8
+ ---TARGET---exit newTARGET: 37F4F0F8
+ ---TARGCALL---entry newTARGET: 37F4F0F8
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -249,14 +249,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 381682B0
- ---addTargetArg---workingArea: 381682A0
+ AV ptr: 37F4F2B0
+ ---addTargetArg---workingArea: 37F4F2A0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 381682A0
+ ---T addTargetArg---workingArea: 37F4F2A0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 381682A0
+ ---TARGARG--- workingArea: 37F4F2A0
  ---TARGARG---entry
  length: 8
  ---T addTargetArg---entry
@@ -266,7 +266,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 381682B0
+ AV ptr: 37F4F2B0
  AV #: 1
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -279,14 +279,14 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 381682B0
- ---addTargetArg---workingArea: 38168300
+ AV ptr: 37F4F2B0
+ ---addTargetArg---workingArea: 37F4F300
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38168300
+ ---T addTargetArg---workingArea: 37F4F300
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38168300
+ ---TARGARG--- workingArea: 37F4F300
  ---TARGARG---entry
  length: 4
  ---T addTargetArg---entry
@@ -296,7 +296,7 @@
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
  ---addTargetArg---entry
- AV ptr: 381682B0
+ AV ptr: 37F4F2B0
  AV #: 2
  ---CC TTArgVal---entry
  CC TTArgVal exit--- avP ptr: 0
@@ -313,11 +313,11 @@
  ---~TTArgVal---entry
  ---~TTArgVal---exit
  gDA
- AV ptr: 381682B0
- ---addTargetArg---workingArea: 38168340
+ AV ptr: 37F4F2B0
+ ---addTargetArg---workingArea: 37F4F340
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38168340
+ ---T addTargetArg---workingArea: 37F4F340
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38168340
+ ---TARGARG--- workingArea: 37F4F340

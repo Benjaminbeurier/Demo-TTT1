@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.3.2.v20190211-1724_163?>
-<!--Topaz for Total Test 19.3.2.v20190211-1724_163 1 mars 2019 11:36:57-->
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 21 mars 2019 13:18:52-->
 <testsuites>
   <testsuite errors="0" failures="0" name="EUROINFO.CWXTSUB2_Scenario.00001: CWXTSUB2Case1" tests="1">
     <testcase classname="EUROINFO.CWXTSUB2_Scenario.00001: CWXTSUB2Case1" name="00001: Check for COMM_TOTAL"/>
