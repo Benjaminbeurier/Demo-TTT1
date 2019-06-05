@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 1 mars 2019 11:41:57-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTCOB2_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTCOB2" encoding="1047" entrypoint="CWXTCOB2#C" id="Unit%20Test/Scenarios/CWXTCOB2_Scenario.testscenario%23CWXTCOB2Case1" target="CWXTCOB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.ISPW.PLAY.QA.DBASE2</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1545126251000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTCOB2.interface#Unit%20Test/Interfaces/CWXTCOB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTCOB2_PARMINFO.listructure#Unit%20Test/Structures/CWXTCOB2_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTCOB2_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWXTCOB2_CWXTSUB2_01.stub#Unit%20Test/Stubs/CWXTCOB2_CWXTSUB2_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB2_CWXTDATE_01.stub#Unit%20Test/Stubs/CWXTCOB2_CWXTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB2_RPTFILE_FILE_01.stub#Unit%20Test/Stubs/CWXTCOB2_RPTFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB2_EMPFILE_FILE_01.stub#Unit%20Test/Stubs/CWXTCOB2_EMPFILE_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

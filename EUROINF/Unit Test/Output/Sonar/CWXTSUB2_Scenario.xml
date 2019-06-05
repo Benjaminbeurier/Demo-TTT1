@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 19 avr. 2019 10:20:28-->
+<testExecutions version="1">
+  <file path="C:\Logiciels - Données\workspace19.1\EUROINF\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="EUROINF.CWXTSUB2_Scenario.00001: CWXTSUB2Case1.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="EUROINF.CWXTSUB2_Scenario.00001: CWXTSUB2Case1.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="EUROINF.CWXTSUB2_Scenario.00001: CWXTSUB2Case1.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Logiciels - Données\workspace19.1\EUROINF\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="EUROINF.CWXTSUB2_Scenario.00002: CWXTSUB2Case2.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="EUROINF.CWXTSUB2_Scenario.00002: CWXTSUB2Case2.00002: Check for SALES_AMOUNT">
+      <failure message="Check for SALES_AMOUNT failed">Check for SALES_AMOUNT failed
+
+Actual Value:    30.00
+
+Expected Value:  = 2765.00</failure>
+    </testCase>
+    <testCase duration="0" name="EUROINF.CWXTSUB2_Scenario.00002: CWXTSUB2Case2.00003: Check for COMM_TOTAL">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    1.80
+
+Expected Value:  = 500.00</failure>
+    </testCase>
+  </file>
+</testExecutions>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 18 avr. 2019 21:03:14-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="Jeudi.CWXTSUB2_Scenario.00001: CWXTSUB2Case1" tests="3">
+    <testcase classname="Jeudi.CWXTSUB2_Scenario.00001: CWXTSUB2Case1" name="00001: Check for EMP_TYPE"/>
+    <testcase classname="Jeudi.CWXTSUB2_Scenario.00001: CWXTSUB2Case1" name="00002: Check for SALES_AMOUNT"/>
+    <testcase classname="Jeudi.CWXTSUB2_Scenario.00001: CWXTSUB2Case1" name="00003: Check for COMM_TOTAL"/>
+  </testsuite>
+</testsuites>

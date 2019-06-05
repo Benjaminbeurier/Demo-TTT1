@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.2.4.v20180102-2053_46?>
+<!--Topaz for Total Test 18.2.4.v20180102-2053_46 17 janv. 2018 09:46:46-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTSUB2_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWXTSUB2" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUB2_Scenario.testscenario%23CWXTSUB2Case1" target="CWXTSUB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.ISPW.PLAY.DEV1.DBASE4</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1516059841000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSUB2.interface#Unit%20Test/Interfaces/CWXTSUB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSUB2_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUB2_EMP-TYPE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUB2_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+          <properties:properties>
+            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="expectedValue" type="string">E2</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTSUB2_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUB2_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTSUB2_SALES-AMOUNT.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUB2_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTSUB2_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUB2_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTSUB2_COMM-TOTAL.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUB2_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000F</properties:property>
+            <properties:property name="expectedValue" type="string">0005530F</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTSUB2_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for COMM_TOTAL failed" name="Check for COMM_TOTAL" refData="#input.arg2.COMM_TOTAL.COMM_TOTAL">
+          <checkconditions:expression>BigDecimalCreator.make('55.30').compareTo(output.arg2.COMM_TOTAL.COMM_TOTAL) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">55.30</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+    </testscenario:testcase>
+    <testscenario:testcase alias="" csect="CWXTSUB2" encoding="1047" id="Unit%20Test/Scenarios/CWXTSUB2_Scenario.testscenario%23AVL" target="CWXTSUB2">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.ISPW.PLAY.DEV1.DBASE4</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1516059841000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWXTSUB2.interface#Unit%20Test/Interfaces/CWXTSUB2.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWXTSUB2_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUB2_EMP-TYPE.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUB2_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+          <properties:properties>
+            <properties:property name="value" type="string">E2</properties:property>
+            <properties:property name="expectedValue" type="string">E2</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:stringType ../Structures/CWXTSUB2_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE" id="input.arg0.EMP_TYPE.EMP_TYPE" offset="0"/>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUB2_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTSUB2_SALES-AMOUNT.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUB2_SALES-AMOUNT.listructure#SALES_AMOUNT" id="arg1.SALES_AMOUNT">
+          <properties:properties>
+            <properties:property name="value" type="string">F0F0F3F0F0F0F0F0</properties:property>
+            <properties:property name="expectedValue" type="string">F0F0F2F7F6F5F0F0</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTSUB2_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT" id="input.arg1.SALES_AMOUNT.SALES_AMOUNT" offset="0"/>
+      </testcase:input>
+      <testcase:input listructure="../Structures/CWXTSUB2_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTSUB2_COMM-TOTAL.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWXTSUB2_COMM-TOTAL.listructure#COMM_TOTAL" id="arg2.COMM_TOTAL">
+          <properties:properties>
+            <properties:property name="value" type="string">0000000F</properties:property>
+            <properties:property name="expectedValue" type="string">0005530F</properties:property>
+          </properties:properties>
+        </testcase:data>
+        <testcase:data baseType="listructure:numberType ../Structures/CWXTSUB2_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL" id="input.arg2.COMM_TOTAL.COMM_TOTAL" offset="0"/>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+        <checkconditions:simpleCheckcondition message="Check for COMM_TOTAL failed" name="Check for COMM_TOTAL" refData="#input.arg2.COMM_TOTAL.COMM_TOTAL">
+          <checkconditions:expression>BigDecimalCreator.make('100').compareTo(output.arg2.COMM_TOTAL.COMM_TOTAL) eq 0</checkconditions:expression>
+          <checkconditions:expectation assert="=" type="number">100</checkconditions:expectation>
+        </checkconditions:simpleCheckcondition>
+      </testcase:checkconditions>
+      <testcase:stubs/>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
