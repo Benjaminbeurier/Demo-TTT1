@@ -2,7 +2,7 @@ ${TOTALTEST_JOBCARD}
 //*** SPECIFY JOBCARD IN TOTALTEST PREFERENCES TO SUBSTITUTE
 //***
 //*** THE JOB CARD MUST INCLUDE A NOTIFY STATEMENT SUCH 
-//*** AS NOTIFY=&SYSUID and also a REGION=0M parameter
+//*** AS NOTIFY=&SYSUID and also a REGION=0M parameter a
 //*
 //********************************************************************
 //* Execute Target Runner
