@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" id="Unit%20Test/Stubs/CWXTCOB2_RPTFILE_FILE_01.stub" stubtype="QSAM" target="RPTFILE" token="30000">
+  <stub:description>Created: 5 juin 2019 18:37:21</stub:description>
+  <stub:stubdata id="0" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_ERROR_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_ERROR_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_ERROR-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_ERROR-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_ERROR-LINE.listructure#ERROR_LINE" id="arg0.ERROR_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">40C9D5E5C1D3C9C440C5D4D7D3D6E8C5C540E3E8D7D640404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_HDR1.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_HDR1.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR1.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR1.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR1.listructure#EMPLOYEE_HDR1" id="arg0.EMPLOYEE_HDR1">
+        <properties:properties>
+          <properties:property name="value" type="string">40D9E4D540C4C1E3C54040F0F661F0F561F1F940404040404040C5D4D7D3D6E8C5C540C3D6D4D7C5D5E2C1E3C9D6D540D9C5D7D6D9E3404040404040404040404040404040404040D7C1C7C5404040F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="7" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_HDR2.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_HDR2.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR2.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR2.listructure#EMPLOYEE_HDR2" id="arg0.EMPLOYEE_HDR2">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040404040404040404040404040404040404040404040404040404040C9D5C7404040E8D9E240D6C640404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_HDR3.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_HDR3.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR3.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-HDR3.listructure#EMPLOYEE_HDR3" id="arg0.EMPLOYEE_HDR3">
+        <properties:properties>
+          <properties:property name="value" type="string">40C5D4D7D3D6E8C5C540D5C1D4C5404040D9C5C7C9D6D540E3E8D7C5404040C4C1E3C54040E2C5D9E5C9C3C54040E2C1D3C1D9E8404040D661E3404040C3D6D4D4C9E2E2C9D6D540404040E3D6E3C1D3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="9" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="10" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_EMPLOYEE-DTL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
+        <properties:properties>
+          <properties:property name="value" type="string">40D1D6C8D540E2D4C9E3C8404040404040C1D3D3C9C1404040C8404040F1F061F1F561F8F1404040F3F74040404040F8F94BF5F04040404040F04BF0F0404040404040F04BF0F040404040F8F94BF5F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="11" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_DTL.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_EMPLOYEE_DTL.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_EMPLOYEE-DTL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
+        <properties:properties>
+          <properties:property name="value" type="string">40E3C5C440D5C5E2E2D4C1D54040404040E6C5E2E340404040E2404040F0F161F3F061F7F9404040F4F0404040F8F7F5F64BF0F04040404040F04BF0F040404040F1F6F54BF9F04040F8F9F2F14BF9F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_BLANK_LINE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_BLANK-LINE.listructure#BLANK_LINE" id="arg0.BLANK_LINE">
+        <properties:properties>
+          <properties:property name="value" type="string">4040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="RPTFILE">
+    <stub:interface>../Interfaces/CWXTCOB2_RPTFILE_EMP_TOTAL_DTL.interface#Unit%20Test/Interfaces/CWXTCOB2_RPTFILE_EMP_TOTAL_DTL.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_RPTFILE_EMP-TOTAL-DTL.listructure#Unit%20Test/Structures/CWXTCOB2_RPTFILE_EMP-TOTAL-DTL.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL" id="arg0.EMP_TOTAL_DTL">
+        <properties:properties>
+          <properties:property name="value" type="string">40404040E3D6E3C1D340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F9F0F1F14BF4F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>
