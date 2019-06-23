@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.3.v20190520-0929_924?>
+<!--Topaz for Total Test 19.4.3.v20190520-0929_924 23 juin 2019 22:05:32-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWXTSUB2.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CWXTSUB2_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTSUB2_EMP-TYPE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTSUB2_EMP-TYPE.listructure#EMP_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CWXTSUB2_EMP-TYPE.listructure#EMP_TYPE.EMP_TYPE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWXTSUB2_SALES-AMOUNT.listructure#Unit%20Test/Structures/CWXTSUB2_SALES-AMOUNT.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTSUB2_SALES-AMOUNT.listructure#SALES_AMOUNT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTSUB2_SALES-AMOUNT.listructure#SALES_AMOUNT.SALES_AMOUNT">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CWXTSUB2_COMM-TOTAL.listructure#Unit%20Test/Structures/CWXTSUB2_COMM-TOTAL.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CWXTSUB2_COMM-TOTAL.listructure#COMM_TOTAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CWXTSUB2_COMM-TOTAL.listructure#COMM_TOTAL.COMM_TOTAL">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -19,20 +19,22 @@ public class CompteCléRib implements IUserDefinedFunction
 	String Transc_Out = "123456789123456789234567890123456789";
 
 	compte = compte + "000000000000000000";
-	compte = compte.substring(0,22);
-	final StringBuilder buffer = new StringBuilder(compte);
+	compte = compte.substring(0,23);
+	String compte_sans_lettres = "";
 	
-	for(int i = 0 ;i<20;i++)
+	for(int i = 0 ;i<21;i++)
 		{
-
-		buffer.setCharAt(i,Transc_Out.charAt( Transc_In.indexOf(buffer.charAt(i))));
+		compte_sans_lettres = compte_sans_lettres + Transc_Out.charAt( Transc_In.indexOf(compte.charAt(i)));
+	//	buffer.setCharAt(i,Transc_Out.charAt( Transc_In.indexOf(buffer.charAt(i))));
 		}
 	
-	int n1 = Integer.parseInt(buffer.substring(0,7));
-	int n2 = Integer.parseInt(buffer.substring(7,14));
-	int n3 = Integer.parseInt(buffer.substring(14,21));
+	int bq = Integer.parseInt(compte_sans_lettres.substring(0,5));
+	int ag = Integer.parseInt(compte_sans_lettres.substring(5,10));
+	int c1 = Integer.parseInt(compte_sans_lettres.substring(10,16));
+	int c2 = Integer.parseInt(compte_sans_lettres.substring(16,21));
 	
-	int cle_rib_9 = 07 - (62 * n1 + 34 * n2 + 3 * n3) % 97;
+	int cle_rib_9 = 97 - ((89 * bq + 15 * ag + 76 * c1 + 3 * c2) % 97);
+//	int cle_rib_9 = 07 - (62 * n1 + 34 * n2 + 3 * n3) % 97;
 	if (cle_rib_9 < 10) {
 		cle_rib_x =  "0" + String.valueOf(cle_rib_9);}
 	else {
@@ -42,8 +44,9 @@ public class CompteCléRib implements IUserDefinedFunction
     if (format_fonction == 2) { 
 	  return cle_rib_x;}
     else {
-      return 	compte.substring(0,22) + cle_rib_x; }
+      return 	compte.substring(0,21) + cle_rib_x; }
 
     }
+	
 }
 

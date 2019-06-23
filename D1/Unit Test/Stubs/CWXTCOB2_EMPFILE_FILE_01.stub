@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1148" fileStatus="00" id="Unit%20Test/Stubs/CWXTCOB2_EMPFILE_FILE_01.stub" stubtype="QSAM" target="EMPFILE" token="40000">
+  <stub:description>Created: 23 juin 2019 22:34:22</stub:description>
+  <stub:stubdata id="0" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWXTCOB2_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB2_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTCOB2_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB2_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F2F3C8F1D1D6C8D540E2D4C9E3C84040404040F5F4F5F640C5D3D440E2E3D9C5C5E3E6C1E8D5C5404040C9D3F7F7F9F0F240404040F3F500250FF0F0F4F0F0F04040F8F1F1F0F1F54040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="EMPFILE">
+    <stub:inputinterface>../Interfaces/CWXTCOB2_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWXTCOB2_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CWXTCOB2_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWXTCOB2_EMPFILE_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_EMPFILE_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg0.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F4F3F1E2F4E3C5C440D5C5E2E2D4C1D540404040D6D5C540C3D6D7D3C5E840D7D34040C2D6E2E3D6D54040D4C1F8F7F1F2F0404040400875600FF0F2F7F6F5F0F04040F7F9F0F1F3F04040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

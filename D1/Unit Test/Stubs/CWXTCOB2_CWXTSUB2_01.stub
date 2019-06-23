@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1148" id="Unit%20Test/Stubs/CWXTCOB2_CWXTSUB2_01.stub" stubtype="Program" target="CWXTSUB2" token="20000">
+  <stub:description>Created: 23 juin 2019 22:33:48</stub:description>
+  <stub:stubdata id="0" name="CWXTSUB2">
+    <stub:interface>../Interfaces/CWXTCOB2_CWXTSUB2.interface#Unit%20Test/Interfaces/CWXTCOB2_CWXTSUB2.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTSUB2_EMP-TYPE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTSUB2_EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTSUB2_EMP-TYPE.listructure#EMP_TYPE" id="arg0.EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">E2</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTSUB2_CALC-SALES.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTSUB2_CALC-SALES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTSUB2_CALC-SALES.listructure#CALC_SALES" id="arg1.CALC_SALES">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F2F7F6F5F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTSUB2_CALC-COMMISSION.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTSUB2_CALC-COMMISSION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTSUB2_CALC-COMMISSION.listructure#CALC_COMMISSION" id="arg2.CALC_COMMISSION">
+        <properties:properties>
+          <properties:property name="value" type="string">0016590F</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>
