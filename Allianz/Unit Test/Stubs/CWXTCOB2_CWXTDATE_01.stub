@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1148" id="Unit%20Test/Stubs/CWXTCOB2_CWXTDATE_01.stub" stubtype="Program" target="CWXTDATE" token="10000">
+  <stub:description>Created: 24 juin 2019 14:31:25</stub:description>
+  <stub:stubdata id="0" name="CWXTDATE">
+    <stub:interface>../Interfaces/CWXTCOB2_CWXTDATE.interface#Unit%20Test/Interfaces/CWXTCOB2_CWXTDATE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F9F0F6F2F4</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="CWXTDATE">
+    <stub:interface>../Interfaces/CWXTCOB2_CWXTDATE.interface#Unit%20Test/Interfaces/CWXTCOB2_CWXTDATE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F7</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F9F0F6F2F4</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F1F1F0F1F5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="CWXTDATE">
+    <stub:interface>../Interfaces/CWXTCOB2_CWXTDATE.interface#Unit%20Test/Interfaces/CWXTCOB2_CWXTDATE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F9F0F6F2F4</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWXTCOB2_CWXTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F7F9F0F1F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+  </stub:stubdata>
+</stub:stub>

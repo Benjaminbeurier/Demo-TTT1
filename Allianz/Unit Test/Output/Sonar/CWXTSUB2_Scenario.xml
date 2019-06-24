@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.3.v20190520-0929_924?>
+<!--Topaz for Total Test 19.4.3.v20190520-0929_924 24 juin 2019 14:28:06-->
+<testExecutions version="1">
+  <file path="C:\Logiciels - Données\workspace19.1\Allianz\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="Allianz.CWXTSUB2_Scenario.00001: CWXTSUB2Case1.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="Allianz.CWXTSUB2_Scenario.00001: CWXTSUB2Case1.00002: Check for SALES_AMOUNT"/>
+    <testCase duration="0" name="Allianz.CWXTSUB2_Scenario.00001: CWXTSUB2Case1.00003: Check for COMM_TOTAL"/>
+  </file>
+  <file path="C:\Logiciels - Données\workspace19.1\Allianz\Unit Test\Scenarios\CWXTSUB2_Scenario.testscenario">
+    <testCase duration="0" name="Allianz.CWXTSUB2_Scenario.00002: Cas3000.00001: Check for EMP_TYPE"/>
+    <testCase duration="0" name="Allianz.CWXTSUB2_Scenario.00002: Cas3000.00002: Check for COMM_TOTAL">
+      <failure message="Check for COMM_TOTAL failed">Check for COMM_TOTAL failed
+
+Actual Value:    180.00
+
+Expected Value:  = 200.00</failure>
+    </testCase>
+  </file>
+</testExecutions>
