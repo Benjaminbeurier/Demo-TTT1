@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-09-22 12:00.48��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-09-22 12:23.59��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWXTCOB2
  STTR014I Processing test scenario CWXTCOB2
@@ -463,6 +463,73 @@
  ---addAvIn---exit
  ---addInArg---exit
  ---SUBIN---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWXTCOB2, pgmName = CWXTCOB2, vName = CEELOCT  , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>element not found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWXTCOB2, pgmName = CWXTCOB2, vName = CEEGMTO  , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>element not found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWXTCOB2, pgmName = CWXTCOB2, vName = IGZXLOCT , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>class_offset: 00002504
+ --->>>element_offset: 00002504
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWXTCOB2, pgmName = CWXTCOB2, vName = IGZXLOCT , offset = 00002504
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>class_offset: 00002504
+ --->>>no additional elements found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWXTCOB2, pgmName = CWXTCOB2, vName = IGZXCDT  , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWXTCOB2
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 75, rs = <0X83000800>.
+ --->>>element not found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
  ---DOSBCALL---entry
  parmlist: X'37DF9188'
  ---doCall---entry

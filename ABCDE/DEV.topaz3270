@@ -1,0 +1,4 @@
+HOST_NAME=cw01
+PORT=23
+SSL=false
+SELF_SIGNED_CERT_OK=false
