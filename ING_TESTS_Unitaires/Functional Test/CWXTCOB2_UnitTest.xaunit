@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
+  <Test>
+    <Unittest testscenariopath="Unit Test/Scenarios/CWXTCOB2_Scenario.testscenario" moduleName="CWXTCOB2" />
+  </Test>
+  <MetaData>
+    <Component name="CWXTCOB2" type="COBOL">
+      <INOUT />
+    </Component>
+  </MetaData>
+</XaUnit>
