@@ -7,5 +7,6 @@
 	<buildSpec>
 	</buildSpec>
 	<natures>
+		<nature>com.compuware.ispw.project.natures.IspwGitProjectNature</nature>
 	</natures>
 </projectDescription>

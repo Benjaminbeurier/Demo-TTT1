@@ -1,0 +1,43 @@
+!!com.compuware.ispw.cli.model.IspwRoot
+ispwApplication:
+  application: PLAY
+  host: CWCC.compuware.com
+  pathMappings:
+  - path: \ASM
+    types:
+    - fileExtension: asm
+      ispwType: ASM
+  - path: \C
+    types:
+    - fileExtension: c
+      ispwType: C
+  - path: \CLST
+    types:
+    - fileExtension: clst
+      ispwType: CLST
+  - path: \COB
+    types:
+    - fileExtension: cbl
+      ispwType: COB
+  - path: \COPY
+    types:
+    - fileExtension: cpy
+      ispwType: COPY
+  - path: \JCL
+    types:
+    - fileExtension: jcl
+      ispwType: JCL
+  - path: \JOB
+    types:
+    - fileExtension: jcl
+      ispwType: JOB
+  - path: \LST
+    types:
+    - fileExtension: srx
+      ispwType: LST
+  - path: \PLI
+    types:
+    - fileExtension: pli
+      ispwType: PLI
+  port: 16196
+  stream: PLAY
