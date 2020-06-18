@@ -1,4 +1,7 @@
+COB/CWBBPGM1.cbl/com.compuware.ispw.core=SALESSUP.ISPW.PLAY.DEV1.COPY SALESSUP.ISPW.PLAY.STG1.COPY SALESSUP.ISPW.PLAY.QA.COPY SALESSUP.ISPW.PLAY.PRD.COPY
+COB/CWBBPGM1.cbl/ispwFileDna=C56FB09024A5B31B0E4FE3188DC2532727397B4B57C52DEC6ED17303E6DDD90B
 COB/CWBBPGM1.cbl/ispwFileReadOnly=false
+COB/CWBBPGM1.cbl/ispwFileStCreated=
 COB/CWBBPGM1.cbl/ispwMetaJson={\n  "mtype"\: "COB",\n  "mname"\: "CWBBPGM1",\n  "clvl"\: "DEV1",\n  "user"\: "BFRBXB0",\n  "taskid"\: [\n    126,\n    68,\n    -85,\n    26,\n    -104,\n    -106\n  ],\n  "lastdate"\: " ",\n  "lasttime"\: " "\n}
 COB/CWBBPGM1.cbl/ispwNodeType=ispwNodeTypeComponent
 COB/CWBBPGM2.cbl/ispwFileReadOnly=true
@@ -104,6 +107,7 @@ COPY/ispwNodeType=ispwNodeTypeComponentType
 eclipse.preferences.version=1
 hciURI=hci\://192.168.96.130\:16196
 ispwApplication=PLAY
+ispwEditing=TRUE
 ispwFilterMetaJson={\n  "isTypesEnabled"\: true,\n  "isNamesEnabled"\: true,\n  "typesCheckedDelimitedList"\: "COB,COPY",\n  "namesDelimitedList"\: "CW*"\n}
 ispwLevel=DEV1
 ispwMetaJson={\n  "stream"\: "PLAY",\n  "app"\: "PLAY",\n  "hostUri"\: "hci\://192.168.96.130\:16196",\n  "runtimeConfiguration"\: "",\n  "host"\: "CWCC.compuware.com",\n  "port"\: 16196\n}
