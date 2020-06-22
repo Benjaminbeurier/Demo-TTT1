@@ -15,9 +15,9 @@ ispwApplication:
     types:
     - fileExtension: clst
       ispwType: CLST
-  - path: \COB
+  - path: \
     types:
-    - fileExtension: cbl
+    - fileExtension: cob
       ispwType: COB
   - path: \COPY
     types:
